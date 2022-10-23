@@ -1,0 +1,29 @@
+{
+    "name": "lino-theme",
+    "displayName": "lino",
+    "description": "A light and unobtrusive theme for people who hate obtrusions.",
+    "repository": {
+        "url": "https://github.com/aryan-mann/lino-theme"
+    },
+    "author": {
+        "name": "Aryan Mann",
+        "email": "aryan.21.mann@gmail.com",
+        "url": "https://aryanmann.com/"
+    },
+    "version": "0.0.1-preview",
+    "engines": {
+        "vscode": "^1.72.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Lino",
+                "uiTheme": "vs",
+                "path": "./themes/Lino-color-theme.json"
+            }
+        ]
+    }
+}
